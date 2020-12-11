@@ -1,0 +1,128 @@
+/* CSS Reset */
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-size: 100%;
+}
+
+/* Pozicionálás */
+
+.profile-card {
+  width: 480px;
+  max-width: calc(100vw - 10px);
+  margin-top: 200px;
+}
+
+body {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+}
+
+.head {
+  text-align: center;
+}
+
+.head, .content {
+  width: 90%;
+  margin: 0 auto;
+}
+
+img {
+  width: 170px;
+  height: 170px;
+  border-radius: 50%;
+  box-shadow: hsla(0, 0%, 100%, .8) 10px 10px 80px;
+  filter: grayscale(30%);
+  transition: all 0.5s ease-in-out;
+}
+
+.profile-image {
+  margin-top: -60px;
+}
+
+ul {
+  list-style-type: none;
+}
+
+li {
+  display: inline;
+}
+
+.profile-image, .name-headline, .about, .links {
+  margin-bottom: 5%;
+}
+
+.content, .head {
+  padding: 0% 5%;
+}
+
+body {
+  background: url('assets/DSCN2362.JPG') center center fixed;
+  background-size: cover;
+}
+
+.name-headline, .about {
+  background-color: hsla(0, 0%, 100%, .7);
+  border-radius: 10px;
+  box-shadow: hsla(0, 0%, 0%, .8) 10px 10px 80px;
+  padding: 15px;
+}
+
+.about {
+  text-align: justify;
+}
+
+.links {
+  background-color: hsla(0, 0%, 100%, .7);
+  box-shadow: hsla(0, 0%, 0%, .8) 10px 10px 80px;
+  height: 120px;
+  width: 120px;
+  border-radius: 50%;
+  margin: 0 auto;
+  text-align: center;
+  padding: 27px;
+}
+
+body {
+  font-family: "Noto Sans";
+}
+
+h1 {
+  font-family: Arizonia;
+  font-size: 30px;
+  color: forestgreen;
+}
+
+.location {
+  font-size: 15px;
+  color: forestgreen;
+}
+
+.contact {
+  font-family: Arizonia;
+  font-size: 22px;
+  color: forestgreen;
+}
+
+.social-icon {
+  font-size: 130%;
+  color: black;
+}
+
+em {
+  color: forestgreen;
+  font-weight: bold;
+}
+
+a:hover {
+  color: forestgreen;
+}
+
+img:hover {
+  transform: scale(1.1);
+  filter: grayscale(0%);
+}
