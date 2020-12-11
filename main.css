@@ -61,7 +61,7 @@ li {
 }
 
 body {
-  background: url('assets/DSCN2362.JPG') center center fixed;
+  background: url('assets/DSCN2362.JPG') no-repeat center center fixed;
   background-size: cover;
 }
 
